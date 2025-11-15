@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solarys - Clima ao Vivo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- 1º Algoritmo - Caixa -->
+  <div class="container">
+
+    <!-- 2º Algoritmo - Título e Logotipo  -->
+    <h1>Solarys</h1>
+    <h2>Clima ao Vivo 🌍</h2>
+
+    <!-- 3º Algoritmo - Caixa Nome das Cidades e Caixa Buscar -->
+    <input type="text" id="city" placeholder="Digite o nome da cidade">
+    <button onclick="getWeather()">Buscar Clima</button>
+
+    <!-- 4º Algoritmo - Nome da Cidade e Sigla - Temperatura - Descrição - Umidade e Velocidade do Vento -->
+    <div id="weather-info">
+      <h2 id="city-name"></h2>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+      <p id="wind-speed"></p>
+    </div>
+
+    <!-- 5º Algoritmo - Botão Limpar -->
+    <button id="clearBtn" disabled>Limpar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
