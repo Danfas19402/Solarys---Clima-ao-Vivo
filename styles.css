@@ -1,0 +1,86 @@
+/* === Estrutura Original Preservada === */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0099ff, #ffcc00);
+  color: #222;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+.container {
+  background: #ffffffcc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #ff6600;
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #0077cc;
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #0077cc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* === Efeito visual dos botões === */
+button:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 119, 204, 0.6);
+}
+
+/* === Botão Limpar com cor diferenciada === */
+#clearBtn {
+  background-color: #ff6600;
+  margin-top: 10px;
+}
+
+/* Efeito hover do botão Limpar */
+#clearBtn:hover {
+  background-color: #e65c00;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.6);
+  transform: scale(1.05);
+}
+
+/* === Botão Limpar desativado === */
+#clearBtn:disabled {
+  background-color: #cccccc;
+  color: #666;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#weather-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
